@@ -67,7 +67,7 @@ pip install numpy pandas matplotlib scikit-learn pyarrow pywt torch scipy
 ## Disclaimer
 
 - This repository is intended for research and educational purposes.
-- The dataset used in this study is not included due to size and/or confidentiality constraints.
+- The dataset used in this study is not included due to size and confidentiality constraints.
 
 ## Author
 
