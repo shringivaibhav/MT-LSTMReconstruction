@@ -66,11 +66,11 @@ pip install numpy pandas matplotlib scikit-learn pyarrow pywt torch scipy
 
 ## Disclaimer
 
-This repository is intended for research and educational purposes.
-The dataset used in this study is not included due to size and/or confidentiality constraints.
+- This repository is intended for research and educational purposes.
+- The dataset used in this study is not included due to size and/or confidentiality constraints.
 
 ## Author
 
-Vaibhav Shringi, BEng
-Master’s Program in Geotechnical and Hydraulic Engineering
-TU Graz, Austria
+- Vaibhav Shringi, BEng
+- Master’s Program in Geotechnical and Hydraulic Engineering
+- TU Graz, Austria
