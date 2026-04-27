@@ -62,6 +62,7 @@ Install the required Python packages before running the scripts:
 
 ```bash
 pip install numpy pandas matplotlib scikit-learn pyarrow pywt torch scipy
+```
 
 ## Disclaimer
 
