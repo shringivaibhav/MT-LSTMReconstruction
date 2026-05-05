@@ -11,7 +11,7 @@ The implementation was developed as part of a Master's thesis at TU Graz.
 
 ## Repository Structure
 
-The repository consists of two main scripts:
+The repository consists of three scripts:
 
 ### 1. Preprocessing Pipeline
 **File:** `data_preprocessing.py`
@@ -28,7 +28,14 @@ This script prepares raw TBM data for modeling. The key steps include:
 
 ---
 
-### 2. LSTM Reconstruction Model
+### 2. Linear Interpolation Errors
+**File:** `linear_interp_errors.py`
+
+This script implements the linear interpolation method for reconstructing artificial gaps in TBM data used for future comparison. The script takes the preprocessed dataset in parquet format and creates user-defined artificial gaps in the data. It then fills the gaps using linear interpolation and computes the RMSE by comparing it with the true values from the preprocessed dataset.
+
+---
+
+### 3. LSTM Reconstruction Model
 **File:** `lstm_evaluation.py`
 
 This script implements a multivariate Seq2Seq LSTM model for reconstructing artificial gaps in TBM data.
