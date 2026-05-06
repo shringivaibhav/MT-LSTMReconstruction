@@ -65,6 +65,13 @@ This script implements a multivariate Seq2Seq LSTM model for reconstructing arti
 
 ---
 
+### 4. RMSE Plots for Parameters
+**File:** `RMSE_plots.py`
+
+This script plots the error metric (RMSE) for the Seq2Seq LSTM model averaging with training lengths, gap lengths, and training-to-gap ratio for the selected TBM parameters by taking the input from the CSV file separated for each operational parameter.
+
+---
+
 ## Requirements
 
 Install the required Python packages before running the scripts:
