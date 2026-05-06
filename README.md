@@ -26,6 +26,8 @@ This script prepares raw TBM data for modeling. The key steps include:
 - Hybrid interpolation of missing data:
 - Exporting processed datasets as `.parquet` files
 
+Due to potential differences in data structure and preprocessing requirements, minor adjustments may be necessary to reproduce results on external datasets.
+
 ---
 
 ### 2. Linear Interpolation Errors
